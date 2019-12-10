@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n00018xh000_7c/T/AppTranslocation/865B4812-2337-48F8-85B7-9C09D246B85C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n00018xh000_7c/T/AppTranslocation/B94A0194-2637-4BE9-B086-58410BCA90FE/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n00018xh000_7c/T/AppTranslocation/865B4812-2337-48F8-85B7-9C09D246B85C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n00018xh000_7c/T/AppTranslocation/B94A0194-2637-4BE9-B086-58410BCA90FE/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/jslave/FRACTOL/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/zz/zyxvpxvq6csfxvn_n00018xh000_7c/T/AppTranslocation/865B4812-2337-48F8-85B7-9C09D246B85C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n00018xh000_7c/T/AppTranslocation/B94A0194-2637-4BE9-B086-58410BCA90FE/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/private/var/folders/zz/zyxvpxvq6csfxvn_n00018xh000_7c/T/AppTranslocation/865B4812-2337-48F8-85B7-9C09D246B85C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n00018xh000_7c/T/AppTranslocation/B94A0194-2637-4BE9-B086-58410BCA90FE/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,140 @@ FRACTOL/fast:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/build
 .PHONY : FRACTOL/fast
 
-first.o: first.c.o
+calculations.o: calculations.c.o
 
-.PHONY : first.o
+.PHONY : calculations.o
 
 # target to build an object file
-first.c.o:
-	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/first.c.o
-.PHONY : first.c.o
+calculations.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/calculations.c.o
+.PHONY : calculations.c.o
 
-first.i: first.c.i
+calculations.i: calculations.c.i
 
-.PHONY : first.i
+.PHONY : calculations.i
 
 # target to preprocess a source file
-first.c.i:
-	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/first.c.i
-.PHONY : first.c.i
+calculations.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/calculations.c.i
+.PHONY : calculations.c.i
 
-first.s: first.c.s
+calculations.s: calculations.c.s
 
-.PHONY : first.s
+.PHONY : calculations.s
 
 # target to generate assembly for a file
-first.c.s:
-	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/first.c.s
-.PHONY : first.c.s
+calculations.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/calculations.c.s
+.PHONY : calculations.c.s
+
+colors.o: colors.c.o
+
+.PHONY : colors.o
+
+# target to build an object file
+colors.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/colors.c.o
+.PHONY : colors.c.o
+
+colors.i: colors.c.i
+
+.PHONY : colors.i
+
+# target to preprocess a source file
+colors.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/colors.c.i
+.PHONY : colors.c.i
+
+colors.s: colors.c.s
+
+.PHONY : colors.s
+
+# target to generate assembly for a file
+colors.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/colors.c.s
+.PHONY : colors.c.s
+
+draw_fractal.o: draw_fractal.c.o
+
+.PHONY : draw_fractal.o
+
+# target to build an object file
+draw_fractal.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/draw_fractal.c.o
+.PHONY : draw_fractal.c.o
+
+draw_fractal.i: draw_fractal.c.i
+
+.PHONY : draw_fractal.i
+
+# target to preprocess a source file
+draw_fractal.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/draw_fractal.c.i
+.PHONY : draw_fractal.c.i
+
+draw_fractal.s: draw_fractal.c.s
+
+.PHONY : draw_fractal.s
+
+# target to generate assembly for a file
+draw_fractal.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/draw_fractal.c.s
+.PHONY : draw_fractal.c.s
+
+init_data.o: init_data.c.o
+
+.PHONY : init_data.o
+
+# target to build an object file
+init_data.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/init_data.c.o
+.PHONY : init_data.c.o
+
+init_data.i: init_data.c.i
+
+.PHONY : init_data.i
+
+# target to preprocess a source file
+init_data.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/init_data.c.i
+.PHONY : init_data.c.i
+
+init_data.s: init_data.c.s
+
+.PHONY : init_data.s
+
+# target to generate assembly for a file
+init_data.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/init_data.c.s
+.PHONY : init_data.c.s
+
+keys.o: keys.c.o
+
+.PHONY : keys.o
+
+# target to build an object file
+keys.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/keys.c.o
+.PHONY : keys.c.o
+
+keys.i: keys.c.i
+
+.PHONY : keys.i
+
+# target to preprocess a source file
+keys.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/keys.c.i
+.PHONY : keys.c.i
+
+keys.s: keys.c.s
+
+.PHONY : keys.s
+
+# target to generate assembly for a file
+keys.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/keys.c.s
+.PHONY : keys.c.s
 
 libft/srcs/ft_atoi.o: libft/srcs/ft_atoi.c.o
 
@@ -1959,6 +2067,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/main.c.s
 .PHONY : main.c.s
 
+menu.o: menu.c.o
+
+.PHONY : menu.o
+
+# target to build an object file
+menu.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/menu.c.o
+.PHONY : menu.c.o
+
+menu.i: menu.c.i
+
+.PHONY : menu.i
+
+# target to preprocess a source file
+menu.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/menu.c.i
+.PHONY : menu.c.i
+
+menu.s: menu.c.s
+
+.PHONY : menu.s
+
+# target to generate assembly for a file
+menu.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/menu.c.s
+.PHONY : menu.c.s
+
 minilibx/mlx_clear_window.o: minilibx/mlx_clear_window.c.o
 
 .PHONY : minilibx/mlx_clear_window.o
@@ -2985,6 +3120,60 @@ minilibx_macos/mlx_xpm.c.s:
 	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/minilibx_macos/mlx_xpm.c.s
 .PHONY : minilibx_macos/mlx_xpm.c.s
 
+mouse.o: mouse.c.o
+
+.PHONY : mouse.o
+
+# target to build an object file
+mouse.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/mouse.c.o
+.PHONY : mouse.c.o
+
+mouse.i: mouse.c.i
+
+.PHONY : mouse.i
+
+# target to preprocess a source file
+mouse.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/mouse.c.i
+.PHONY : mouse.c.i
+
+mouse.s: mouse.c.s
+
+.PHONY : mouse.s
+
+# target to generate assembly for a file
+mouse.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/mouse.c.s
+.PHONY : mouse.c.s
+
+utils.o: utils.c.o
+
+.PHONY : utils.o
+
+# target to build an object file
+utils.c.o:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/utils.c.o
+.PHONY : utils.c.o
+
+utils.i: utils.c.i
+
+.PHONY : utils.i
+
+# target to preprocess a source file
+utils.c.i:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/utils.c.i
+.PHONY : utils.c.i
+
+utils.s: utils.c.s
+
+.PHONY : utils.s
+
+# target to generate assembly for a file
+utils.c.s:
+	$(MAKE) -f CMakeFiles/FRACTOL.dir/build.make CMakeFiles/FRACTOL.dir/utils.c.s
+.PHONY : utils.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2994,9 +3183,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... FRACTOL"
-	@echo "... first.o"
-	@echo "... first.i"
-	@echo "... first.s"
+	@echo "... calculations.o"
+	@echo "... calculations.i"
+	@echo "... calculations.s"
+	@echo "... colors.o"
+	@echo "... colors.i"
+	@echo "... colors.s"
+	@echo "... draw_fractal.o"
+	@echo "... draw_fractal.i"
+	@echo "... draw_fractal.s"
+	@echo "... init_data.o"
+	@echo "... init_data.i"
+	@echo "... init_data.s"
+	@echo "... keys.o"
+	@echo "... keys.i"
+	@echo "... keys.s"
 	@echo "... libft/srcs/ft_atoi.o"
 	@echo "... libft/srcs/ft_atoi.i"
 	@echo "... libft/srcs/ft_atoi.s"
@@ -3198,6 +3399,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... menu.o"
+	@echo "... menu.i"
+	@echo "... menu.s"
 	@echo "... minilibx/mlx_clear_window.o"
 	@echo "... minilibx/mlx_clear_window.i"
 	@echo "... minilibx/mlx_clear_window.s"
@@ -3312,6 +3516,12 @@ help:
 	@echo "... minilibx_macos/mlx_xpm.o"
 	@echo "... minilibx_macos/mlx_xpm.i"
 	@echo "... minilibx_macos/mlx_xpm.s"
+	@echo "... mouse.o"
+	@echo "... mouse.i"
+	@echo "... mouse.s"
+	@echo "... utils.o"
+	@echo "... utils.i"
+	@echo "... utils.s"
 .PHONY : help
 
 

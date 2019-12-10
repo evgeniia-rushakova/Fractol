@@ -10,51 +10,33 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #ifndef FRACTOL_H
-#define FRACTOL_H
+# define FRACTOL_H
 
 # include <fcntl.h>
 # include "mlx.h"
 # include "libft.h"
 # include <math.h>
+# include "stdio.h"//del
+# include <pthread.h>
+# include "keys_and_struct.h"
 
-# define KEY_NUM6 88
-# define KEY_NUM4 86
-# define KEY_NUM8 91
-# define KEY_NUM2 84
-# define KEY_NUM5 87
-# define KEY_NUM_P 69
-# define KEY_NUM_M 78
-# define KEY_NUM7 89
-# define KEY_NUM9 92
-# define KEY_RIGHT 124
-# define KEY_DOWN 125
-# define KEY_LEFT 123
-# define KEY_UP 126
-# define KEY_AST 67
-# define KEY_ESC 53
-# define KEY_NUM0 82
+int		create_data(t_dt *data);
+int		init_mlx(t_dt *data);
+void	error_out(t_dt *dt);
 
-# define WIDTH 400
-# define HEIGHT 400
+void		create_fractal(t_dt *data);
+void    calculate_part(t_dt *data);
+int		check_arg(t_dt *data, char **av);
 
-typedef struct      s_mlxdata
-{
-    void			*win_ptr;
-    void			*mlx_ptr;
-    void			*img_ptr;
-    int				*img_data;
-    int				bpp;
-    int				endian;
-    int				size_line;
-}                   t_mlxdata;
+int			key_press(int keycode, t_dt *data);
+t_num		make_num(double rp, double ip);
+int			mouse_move(int x, int y, t_dt *data);
+int			find_iterator(t_num pnt, t_dt *data);
+int			mouse_click_scroll(int keycode, int x, int y, t_dt *data);
 
-typedef struct      s_num
-{
-    double rp;
-    double ip;
-}                   t_num;
 
+int		rgb_to_color(t_color *color);
+void	change_point_color(t_num pnt, int i, t_dt *dt);
+int 	show_menu(t_dt *dt);
 #endif

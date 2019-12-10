@@ -120,7 +120,7 @@ add_executable(FRACTOL
         minilibx_macos/mlx_rgb.c
         minilibx_macos/mlx_shaders.c
         minilibx_macos/mlx_xpm.c
-        fdf.h
-        first.c
         fractol.h
-        main.c)
+        keys.c
+        main.c
+        init_data.c colors.c draw_fractal.c mouse.c keys_and_struct.h menu.c calculations.c utils.c)

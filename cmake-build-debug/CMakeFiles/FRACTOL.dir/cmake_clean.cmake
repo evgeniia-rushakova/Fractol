@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FRACTOL.dir/first.c.o"
+  "CMakeFiles/FRACTOL.dir/calculations.c.o"
+  "CMakeFiles/FRACTOL.dir/colors.c.o"
+  "CMakeFiles/FRACTOL.dir/draw_fractal.c.o"
+  "CMakeFiles/FRACTOL.dir/init_data.c.o"
+  "CMakeFiles/FRACTOL.dir/keys.c.o"
   "CMakeFiles/FRACTOL.dir/libft/srcs/ft_atoi.c.o"
   "CMakeFiles/FRACTOL.dir/libft/srcs/ft_atoi_base.c.o"
   "CMakeFiles/FRACTOL.dir/libft/srcs/ft_bzero.c.o"
@@ -67,6 +71,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/FRACTOL.dir/libft/srcs/ft_toupper.c.o"
   "CMakeFiles/FRACTOL.dir/libft/srcs/get_next_line.c.o"
   "CMakeFiles/FRACTOL.dir/main.c.o"
+  "CMakeFiles/FRACTOL.dir/menu.c.o"
   "CMakeFiles/FRACTOL.dir/minilibx/mlx_clear_window.c.o"
   "CMakeFiles/FRACTOL.dir/minilibx/mlx_destroy_image.c.o"
   "CMakeFiles/FRACTOL.dir/minilibx/mlx_destroy_window.c.o"
@@ -105,6 +110,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FRACTOL.dir/minilibx_macos/mlx_rgb.c.o"
   "CMakeFiles/FRACTOL.dir/minilibx_macos/mlx_shaders.c.o"
   "CMakeFiles/FRACTOL.dir/minilibx_macos/mlx_xpm.c.o"
+  "CMakeFiles/FRACTOL.dir/mouse.c.o"
+  "CMakeFiles/FRACTOL.dir/utils.c.o"
   "FRACTOL"
   "FRACTOL.pdb"
 )

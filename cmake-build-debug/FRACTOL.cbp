@@ -88,13 +88,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jslave/FRACTOL/fdf.h">
+		<Unit filename="/Users/jslave/FRACTOL/calculations.c">
 			<Option target="FRACTOL"/>
 		</Unit>
-		<Unit filename="/Users/jslave/FRACTOL/first.c">
+		<Unit filename="/Users/jslave/FRACTOL/colors.c">
+			<Option target="FRACTOL"/>
+		</Unit>
+		<Unit filename="/Users/jslave/FRACTOL/draw_fractal.c">
 			<Option target="FRACTOL"/>
 		</Unit>
 		<Unit filename="/Users/jslave/FRACTOL/fractol.h">
+			<Option target="FRACTOL"/>
+		</Unit>
+		<Unit filename="/Users/jslave/FRACTOL/init_data.c">
+			<Option target="FRACTOL"/>
+		</Unit>
+		<Unit filename="/Users/jslave/FRACTOL/keys.c">
+			<Option target="FRACTOL"/>
+		</Unit>
+		<Unit filename="/Users/jslave/FRACTOL/keys_and_struct.h">
 			<Option target="FRACTOL"/>
 		</Unit>
 		<Unit filename="/Users/jslave/FRACTOL/libft/includes/get_next_line.h">
@@ -304,6 +316,9 @@
 		<Unit filename="/Users/jslave/FRACTOL/main.c">
 			<Option target="FRACTOL"/>
 		</Unit>
+		<Unit filename="/Users/jslave/FRACTOL/menu.c">
+			<Option target="FRACTOL"/>
+		</Unit>
 		<Unit filename="/Users/jslave/FRACTOL/minilibx/mlx.h">
 			<Option target="FRACTOL"/>
 		</Unit>
@@ -431,6 +446,12 @@
 			<Option target="FRACTOL"/>
 		</Unit>
 		<Unit filename="/Users/jslave/FRACTOL/minilibx_macos/mlx_xpm.c">
+			<Option target="FRACTOL"/>
+		</Unit>
+		<Unit filename="/Users/jslave/FRACTOL/mouse.c">
+			<Option target="FRACTOL"/>
+		</Unit>
+		<Unit filename="/Users/jslave/FRACTOL/utils.c">
 			<Option target="FRACTOL"/>
 		</Unit>
 		<Unit filename="/Users/jslave/FRACTOL/CMakeLists.txt">

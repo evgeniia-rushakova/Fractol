@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/jslave/FRACTOL/first.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/first.c.o"
+  "/Users/jslave/FRACTOL/calculations.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/calculations.c.o"
+  "/Users/jslave/FRACTOL/colors.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/colors.c.o"
+  "/Users/jslave/FRACTOL/draw_fractal.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/draw_fractal.c.o"
+  "/Users/jslave/FRACTOL/init_data.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/init_data.c.o"
+  "/Users/jslave/FRACTOL/keys.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/keys.c.o"
   "/Users/jslave/FRACTOL/libft/srcs/ft_atoi.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/libft/srcs/ft_atoi.c.o"
   "/Users/jslave/FRACTOL/libft/srcs/ft_atoi_base.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/libft/srcs/ft_atoi_base.c.o"
   "/Users/jslave/FRACTOL/libft/srcs/ft_bzero.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/libft/srcs/ft_bzero.c.o"
@@ -72,6 +76,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/jslave/FRACTOL/libft/srcs/ft_toupper.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/libft/srcs/ft_toupper.c.o"
   "/Users/jslave/FRACTOL/libft/srcs/get_next_line.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/libft/srcs/get_next_line.c.o"
   "/Users/jslave/FRACTOL/main.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/main.c.o"
+  "/Users/jslave/FRACTOL/menu.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/menu.c.o"
   "/Users/jslave/FRACTOL/minilibx/mlx_clear_window.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/minilibx/mlx_clear_window.c.o"
   "/Users/jslave/FRACTOL/minilibx/mlx_destroy_image.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/minilibx/mlx_destroy_image.c.o"
   "/Users/jslave/FRACTOL/minilibx/mlx_destroy_window.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/minilibx/mlx_destroy_window.c.o"
@@ -110,6 +115,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/jslave/FRACTOL/minilibx_macos/mlx_rgb.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/minilibx_macos/mlx_rgb.c.o"
   "/Users/jslave/FRACTOL/minilibx_macos/mlx_shaders.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/minilibx_macos/mlx_shaders.c.o"
   "/Users/jslave/FRACTOL/minilibx_macos/mlx_xpm.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/minilibx_macos/mlx_xpm.c.o"
+  "/Users/jslave/FRACTOL/mouse.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/mouse.c.o"
+  "/Users/jslave/FRACTOL/utils.c" "/Users/jslave/FRACTOL/cmake-build-debug/CMakeFiles/FRACTOL.dir/utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

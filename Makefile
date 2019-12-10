@@ -19,11 +19,11 @@ INCLUDES = libft/includes
 
 MLX_LIB_INCLUDES = minilibx
 
-FLAGS = -Wall -Wextra -Werror -g
+FLAGS =  -Wall -Wextra -Werror
 
-FLAGS_GRAPHIC = -framework OpenGL -framework Appkit
+FLAGS_GRAPHIC = -lpthread -framework OpenGL -framework Appkit
 
-SRC = main.c first.c
+SRC = main.c keys.c mouse.c utils.c draw_fractal.c colors.c menu.c calculations.c init_data.c
 
 OUT = $(SRC:%.c=%.o)
 
