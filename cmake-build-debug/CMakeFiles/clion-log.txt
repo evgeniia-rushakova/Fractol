@@ -1,4 +1,0 @@
-/private/var/folders/zz/zyxvpxvq6csfxvn_n00018xh000_7c/T/AppTranslocation/B94A0194-2637-4BE9-B086-58410BCA90FE/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jslave/FRACTOL
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/jslave/FRACTOL/cmake-build-debug

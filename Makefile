@@ -15,7 +15,9 @@ NAME = fractol
 
 LIBFT = libft
 
-INCLUDES = libft/includes
+LIBFT_INCLUDES = libft/includes
+
+INCLUDES = inc/
 
 MLX_LIB_INCLUDES = minilibx
 
@@ -23,7 +25,7 @@ FLAGS =  -Wall -Wextra -Werror
 
 FLAGS_GRAPHIC = -lpthread -framework OpenGL -framework Appkit
 
-SRC = main.c keys.c mouse.c utils.c draw_fractal.c colors.c menu.c calculations.c init_data.c
+SRC = src/main.c src/keys.c src/mouse.c src/utils.c src/draw_fractal.c src/colors.c src/menu.c src/calculations.c src/init_data.c
 
 OUT = $(SRC:%.c=%.o)
 
@@ -33,7 +35,7 @@ $(NAME): $(OUT)
 	make -C $(LIBFT)
 	gcc $(FLAGS) -o $(NAME) $(OUT) -L $(LIBFT) -lft -L $(MLX_LIB_INCLUDES) -lmlx $(FLAGS_GRAPHIC)
 %.o: %.c
-	gcc $(FLAGS) -I $(INCLUDES)  -o $@ -c $<
+	gcc $(FLAGS) -I $(LIBFT_INCLUDES) -I $(INCLUDES) -o $@ -c $<
 
 clean:
 	/bin/rm -f $(OUT)
